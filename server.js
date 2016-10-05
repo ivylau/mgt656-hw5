@@ -6,7 +6,7 @@ app.get('/', function(request, response){
 });
 
 app.get('/alert-dolphin', function(request, response){
-    response.send('Hello MGT-656! How are you?');
+    response.send('Hello MGT-656! How is life?');
 });
 
 app.listen(process.env.PORT || 4000);
