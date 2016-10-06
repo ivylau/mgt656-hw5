@@ -5,7 +5,7 @@ app.get('/', function(request, response){
     response.send('Hello MGT-656!');
 });
 
-app.get('/alert-dolphin', function(request, response){
+app.get('/netid', function(request, response){
     response.send('Hello MGT-656! How is life?');
 });
 
